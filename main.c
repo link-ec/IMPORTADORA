@@ -1,8 +1,5 @@
 # IMPORTADORA
 
-General.- Empresa ya establecida en importacion de productos, interesada en adquirir nuevos clientes via Aplicacion web.
-API.- La aplicacion requerida es de tipo formulario donde el cliente escoje el servicio requerido (nombres del servicio provisionales):
-
 S1 = broker_de_container
 S2 = bulto
 S3 = exportacion
@@ -51,10 +48,6 @@ En la pagina principal, se vizualizan la info de la empresa y se exponen los ser
   Resultado = {AREA, FECHA, OFERTA, ORIGEN, DESTINO, var6, var7, VALOR}
   
   ----------------------------------------------------------------------------------------------------------
-
 En este programa se establece el AREA o espacio usado, FECHA definida por las exigencias explicitas del cliente en una fecha especifica (FECHA_CLIENTE) o en una fecha ofrecida por el provider (FECHA_DISPONIBLES_PROVIDERS), OFERTA definida por el cliente que debe entrar dentro del rango_del_precio definiendo una oferta real, ORIGEN, DESTINO verificando la area de cobertura, si el cliente nececita agentes en origen o destino.
-
-Con estos datos elaborados
-
 
 
