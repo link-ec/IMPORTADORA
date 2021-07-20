@@ -23,9 +23,12 @@ En la pagina principal, se vizualizan la info de la empresa y se exponen los ser
     ORIGEN = Origen [database]
       { verificar area de cobertura }
     DESTINO = Destino [database]
-    var6 = Nececita provider, servicio en origen? = {providers} | {agentes_pais_origen | courriers_pais_origen}
-    var7 = Nececita agente ingreso Ecuador? | Entrega domicilio? = {agentes_ecuador | courriers}
-    VALOR = Valor mercancia = {valor}
+    var6 = Nececita provider, servicio en origen?
+      {providers} | {agentes_pais_origen | courriers_pais_origen}
+    var7 = Nececita agente ingreso Ecuador? | Entrega domicilio?
+      {agentes_ecuador | courriers}
+    VALOR = Valor mercancia
+      {valor}
     
   CASO2 = 2, > 2
     var9 = Variable de espacio [COMPLETAR]
@@ -43,7 +46,8 @@ En la pagina principal, se vizualizan la info de la empresa y se exponen los ser
       {providers} | {agentes_pais_origen | courriers_pais_origen}
     var7 = Nececita agente ingreso Ecuador?, Entrega domicilio?
       {agentes_ecuador | courriers_ecuador}
-    VALOR = Valor mercancia = {valor}
+    VALOR = Valor mercancia
+      {valor}
   
   Resultado = {AREA, FECHA, OFERTA, ORIGEN, DESTINO, var6, var7, VALOR}
   
